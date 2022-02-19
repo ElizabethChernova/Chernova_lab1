@@ -16,7 +16,7 @@
             <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
         <DatePicker Grid.Row="0" Name="TbDataPicker" Text="{Binding DateOfBirth}" > </DatePicker>
-        <Button Grid.Row="1" Name="Ok" Content="Press this button after selecting data" HorizontalAlignment="Stretch" VerticalAlignment="Center" Click="BSelected_Click" Height="25" Margin="5" ></Button>
+        <Button Grid.Row="1" Name="Okey" Content="Press this button after selecting data" HorizontalAlignment="Stretch" VerticalAlignment="Center" Click="BSelected_Click" Height="25" Margin="5" ></Button>
         <TextBlock Grid.Row="2" Name="TbDateOfBirth" > </TextBlock>
         <TextBlock Grid.Row="3" Name="TbAge" ></TextBlock>
         <TextBlock Grid.Row="4" Name="TbZodiacWestern" ></TextBlock>
